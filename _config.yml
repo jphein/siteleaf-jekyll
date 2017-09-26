@@ -1,6 +1,5 @@
 ---
 title: Siteleaf/Jekyll
-url: http://siteleaf-jekyll.siteleaf.net
 timezone: America/New_York
 collections:
   news:
@@ -12,6 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+url: http://siteleaf-jekyll.siteleaf.net
 gems:
 - jekyll-paginate
 paginate: 3
@@ -25,8 +25,9 @@ excerpt_separator: "<!--more-->"
 email: your-email@domain.com
 exclude:
 - ".gitignore"
-description: |
-  Write an awesome description for your new site here.
+description: 'Write an awesome description for your new site here.
+
+'
 baseurl: 
 destination: "./build"
 sass:
